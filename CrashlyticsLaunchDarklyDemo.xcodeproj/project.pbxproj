@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		741CC42F8AC71F2C248B538B /* Pods_CrashlyticsLaunchDarklyDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAAC9E46958A0C6498B66E6 /* Pods_CrashlyticsLaunchDarklyDemo.framework */; };
+		E093220012F657A81784681F /* Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A74363D86E337DC861598EB /* Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework */; };
+		E844561F04C1EBCF18724975 /* Pods_CrashlyticsLaunchDarklyDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 080509B6BDB62A697DD9C6AF /* Pods_CrashlyticsLaunchDarklyDemoTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2B4DE1352D8B25700094FDC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +30,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080509B6BDB62A697DD9C6AF /* Pods_CrashlyticsLaunchDarklyDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsLaunchDarklyDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		103C9DDCB61D0E56A2369CD5 /* Pods-CrashlyticsLaunchDarklyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemo.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemo/Pods-CrashlyticsLaunchDarklyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2B4DE1242D8B256F0094FDC1 /* CrashlyticsLaunchDarklyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashlyticsLaunchDarklyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DE1342D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsLaunchDarklyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4DE13E2D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashlyticsLaunchDarklyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A74363D86E337DC861598EB /* Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC79B2E067103CB67A5B4F6 /* Pods-CrashlyticsLaunchDarklyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemo.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemo/Pods-CrashlyticsLaunchDarklyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		74183C10D1B187216D97E048 /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77D4A070FF0BD1036F10E5DA /* Pods-CrashlyticsLaunchDarklyDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemoTests/Pods-CrashlyticsLaunchDarklyDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8903AC9C94CA00866E161AC /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA8DD266961EC954610E9DB /* Pods-CrashlyticsLaunchDarklyDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashlyticsLaunchDarklyDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CrashlyticsLaunchDarklyDemoTests/Pods-CrashlyticsLaunchDarklyDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAAAC9E46958A0C6498B66E6 /* Pods_CrashlyticsLaunchDarklyDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashlyticsLaunchDarklyDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B4DE1642D8B27B00094FDC1 /* Exceptions for "CrashlyticsLaunchDarklyDemo" folder in "CrashlyticsLaunchDarklyDemoTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 2B4DE1332D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoTests */;
+		};
+		2B4DE1652D8B27B00094FDC1 /* Exceptions for "CrashlyticsLaunchDarklyDemo" folder in "CrashlyticsLaunchDarklyDemoUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = 2B4DE13D2D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2B4DE1262D8B256F0094FDC1 /* CrashlyticsLaunchDarklyDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B4DE1642D8B27B00094FDC1 /* Exceptions for "CrashlyticsLaunchDarklyDemo" folder in "CrashlyticsLaunchDarklyDemoTests" target */,
+				2B4DE1652D8B27B00094FDC1 /* Exceptions for "CrashlyticsLaunchDarklyDemo" folder in "CrashlyticsLaunchDarklyDemoUITests" target */,
+			);
 			path = CrashlyticsLaunchDarklyDemo;
 			sourceTree = "<group>";
 		};
@@ -52,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				741CC42F8AC71F2C248B538B /* Pods_CrashlyticsLaunchDarklyDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E844561F04C1EBCF18724975 /* Pods_CrashlyticsLaunchDarklyDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E093220012F657A81784681F /* Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +118,8 @@
 				2B4DE1372D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoTests */,
 				2B4DE1412D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoUITests */,
 				2B4DE1252D8B256F0094FDC1 /* Products */,
+				8FEF2895E731146BF6A95D9A /* Pods */,
+				46F0513A517A06DE8A05C844 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +133,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		46F0513A517A06DE8A05C844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAC9E46958A0C6498B66E6 /* Pods_CrashlyticsLaunchDarklyDemo.framework */,
+				4A74363D86E337DC861598EB /* Pods_CrashlyticsLaunchDarklyDemo_CrashlyticsLaunchDarklyDemoUITests.framework */,
+				080509B6BDB62A697DD9C6AF /* Pods_CrashlyticsLaunchDarklyDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEF2895E731146BF6A95D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				103C9DDCB61D0E56A2369CD5 /* Pods-CrashlyticsLaunchDarklyDemo.debug.xcconfig */,
+				4FC79B2E067103CB67A5B4F6 /* Pods-CrashlyticsLaunchDarklyDemo.release.xcconfig */,
+				A8903AC9C94CA00866E161AC /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.debug.xcconfig */,
+				74183C10D1B187216D97E048 /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.release.xcconfig */,
+				77D4A070FF0BD1036F10E5DA /* Pods-CrashlyticsLaunchDarklyDemoTests.debug.xcconfig */,
+				CCA8DD266961EC954610E9DB /* Pods-CrashlyticsLaunchDarklyDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DE1482D8B25700094FDC1 /* Build configuration list for PBXNativeTarget "CrashlyticsLaunchDarklyDemo" */;
 			buildPhases = (
+				CE556E4139862E90F9A9C0D6 /* [CP] Check Pods Manifest.lock */,
 				2B4DE1202D8B256F0094FDC1 /* Sources */,
 				2B4DE1212D8B256F0094FDC1 /* Frameworks */,
 				2B4DE1222D8B256F0094FDC1 /* Resources */,
+				2C727CEABA7B69B45F38342E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +177,6 @@
 				2B4DE1262D8B256F0094FDC1 /* CrashlyticsLaunchDarklyDemo */,
 			);
 			name = CrashlyticsLaunchDarklyDemo;
-			packageProductDependencies = (
-			);
 			productName = CrashlyticsLaunchDarklyDemo;
 			productReference = 2B4DE1242D8B256F0094FDC1 /* CrashlyticsLaunchDarklyDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DE14B2D8B25700094FDC1 /* Build configuration list for PBXNativeTarget "CrashlyticsLaunchDarklyDemoTests" */;
 			buildPhases = (
+				C2E6F45E72FF60A0F1636F5B /* [CP] Check Pods Manifest.lock */,
 				2B4DE1302D8B25700094FDC1 /* Sources */,
 				2B4DE1312D8B25700094FDC1 /* Frameworks */,
 				2B4DE1322D8B25700094FDC1 /* Resources */,
@@ -134,8 +199,6 @@
 				2B4DE1372D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoTests */,
 			);
 			name = CrashlyticsLaunchDarklyDemoTests;
-			packageProductDependencies = (
-			);
 			productName = CrashlyticsLaunchDarklyDemoTests;
 			productReference = 2B4DE1342D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4DE14E2D8B25700094FDC1 /* Build configuration list for PBXNativeTarget "CrashlyticsLaunchDarklyDemoUITests" */;
 			buildPhases = (
+				738EDE75C52BBA355A52C308 /* [CP] Check Pods Manifest.lock */,
 				2B4DE13A2D8B25700094FDC1 /* Sources */,
 				2B4DE13B2D8B25700094FDC1 /* Frameworks */,
 				2B4DE13C2D8B25700094FDC1 /* Resources */,
+				889725BA503742072B81B3F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +222,6 @@
 				2B4DE1412D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoUITests */,
 			);
 			name = CrashlyticsLaunchDarklyDemoUITests;
-			packageProductDependencies = (
-			);
 			productName = CrashlyticsLaunchDarklyDemoUITests;
 			productReference = 2B4DE13E2D8B25700094FDC1 /* CrashlyticsLaunchDarklyDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +293,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C727CEABA7B69B45F38342E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo/Pods-CrashlyticsLaunchDarklyDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo/Pods-CrashlyticsLaunchDarklyDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo/Pods-CrashlyticsLaunchDarklyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		738EDE75C52BBA355A52C308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889725BA503742072B81B3F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests/Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2E6F45E72FF60A0F1636F5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashlyticsLaunchDarklyDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE556E4139862E90F9A9C0D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrashlyticsLaunchDarklyDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B4DE1202D8B256F0094FDC1 /* Sources */ = {
@@ -306,7 +472,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -369,7 +535,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -390,13 +556,17 @@
 		};
 		2B4DE1492D8B25700094FDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103C9DDCB61D0E56A2369CD5 /* Pods-CrashlyticsLaunchDarklyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CrashlyticsLaunchDarklyDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 5252995SNU;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -410,6 +580,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LaunchDarkly.CrashlyticsLaunchDarklyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -418,13 +589,17 @@
 		};
 		2B4DE14A2D8B25700094FDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC79B2E067103CB67A5B4F6 /* Pods-CrashlyticsLaunchDarklyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CrashlyticsLaunchDarklyDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 5252995SNU;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -438,6 +613,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LaunchDarkly.CrashlyticsLaunchDarklyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +622,7 @@
 		};
 		2B4DE14C2D8B25700094FDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D4A070FF0BD1036F10E5DA /* Pods-CrashlyticsLaunchDarklyDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +641,7 @@
 		};
 		2B4DE14D2D8B25700094FDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA8DD266961EC954610E9DB /* Pods-CrashlyticsLaunchDarklyDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +660,7 @@
 		};
 		2B4DE14F2D8B25700094FDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8903AC9C94CA00866E161AC /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +677,7 @@
 		};
 		2B4DE1502D8B25700094FDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74183C10D1B187216D97E048 /* Pods-CrashlyticsLaunchDarklyDemo-CrashlyticsLaunchDarklyDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
