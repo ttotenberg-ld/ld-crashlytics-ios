@@ -112,6 +112,7 @@ Temporary Items
 .apdisk
 
 # IDE - VSCode
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -146,4 +147,7 @@ Temporary Items
 .project
 .classpath
 .settings/
-*.launch 
+*.launch
+
+# Firebase
+GoogleService-Info.plist 
